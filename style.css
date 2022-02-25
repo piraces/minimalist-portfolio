@@ -1,6 +1,4 @@
 /* global */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
 .grid-2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -11,18 +9,25 @@ body{
     padding: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #101214;
-    color: #7A7C80;
+    color: #ffffff;
 
 }
 
 h2,.white{
-    color: #fff;
+    color: #ffffff;
 }
 
 a{
-    color: #7A7C80;
+    color: #ffffff;
     text-decoration: none;
 }
+
+.no-text {
+	line-height: 0;
+    font-size: 0;
+    color: transparent;
+}
+
 /* section 1 */
 .section-1{
     padding-top: 40vh;
@@ -147,7 +152,7 @@ a{
 
 .timeline .event:before {
 	left: -14.5rem;
-	color: rgba(255, 255, 255, 0.4);
+	color: #ffffff;
 	content: attr(data-date);
 	text-align: right;
 	font-weight: 100;
